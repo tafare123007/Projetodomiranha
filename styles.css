@@ -1,21 +1,16 @@
 /* styles.css */
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
-}
-
+/* Estilos gerais do cabeçalho */
 header {
-    background-color: #ef160a; /* Vermelho */
-    color: #000000;
+    background-color: #FF0000; /* Vermelho */
+    color: #000000; /* Preto */
     padding: 10px 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 36px;
 }
 
 nav ul {
@@ -30,18 +25,25 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000000;
+    color: #000000; /* Preto */
 }
 
-.main-content {
-    padding: 20px;
-    text-align: center;
-    color: #f51909: /* Vermelho */
+/* Estilos específicos para Miles Morales */
+.header-miles {
+    background-image: url('miles-morales-background.jpg'); /* Substitua pelo caminho para sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #f31e17; /* Vermelho */
-    color: #fff9f9;
+.header-miles h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Um tipo de letra mais moderno */
 }
+
+.header-miles nav ul li a {
+    font-weight: bold;
+}
+
+/* Outros estilos para o site */
+/* ... */
+
